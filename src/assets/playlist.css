@@ -1,0 +1,58 @@
+.play_list{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.type>div{
+  display: inline-block;
+}
+.type>div:last-of-type{
+  float: right;
+}
+.select li{
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+.select li span{
+  font-size: 16px;
+  color: #999999;
+  margin: 8px;
+}
+
+.select>ul>li:first-of-type span{
+  font-size: 20px;
+  color: #000;
+  margin-right: 20px;
+  cursor: auto;
+}
+.select>ul>li:last-of-type{
+  max-width: 1120px;
+  line-height: 30px;
+}
+.active{
+  color: #009af3 !important;
+  font-weight: bold;
+}
+.list li{
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 0;
+}
+.list li img{
+  width: 80%;
+  margin: 0 auto;
+}
+.list>p>button{
+  border: 0;
+  background: #009af3;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 20px;
+  border-radius: 3px;
+}
+.list>p{
+  text-align: center;
+}

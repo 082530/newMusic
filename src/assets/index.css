@@ -1,0 +1,24 @@
+.hello{
+  padding-top: 20px;
+}
+.new_n>h2{
+  color: #333333;
+  display: inline-block;
+}
+.new_n>h2.active{
+  color: #009af3;
+}
+.song img,.mv img{
+  width: 100%;
+  height: 200px;
+}
+.song li,.mv li{
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  height: 250px;
+  margin: 20px;
+}
+.song li>p,.mv li>p{
+  text-align: center;
+}

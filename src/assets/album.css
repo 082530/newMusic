@@ -1,0 +1,55 @@
+.info{
+  width: 100%;
+  padding-top: 50px;
+}
+.album{
+  width: 900px;
+  margin: 0 auto;
+}
+.info>div{
+  display: inline-block;
+  width: 73%;
+  vertical-align: top;
+}
+.info>div:first-of-type{
+  width: 25%;
+  border: 1px solid #0576DA;
+  padding: 3px;
+}
+.info img{
+  width: 100%;
+}
+.info h2{
+  margin: 20px 10px;
+}
+
+.info>div:last-of-type>p{
+  line-height: 30px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.description>h3{
+  margin-top: 20px;
+}
+.description>p{
+  line-height: 30px;
+  text-indent: 2em;
+}
+.song>table{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.song th{
+  background: #f7f7f7;
+  padding: 10px 0;
+}
+.song>table>tbody>tr:nth-child(even) td{
+  background: #f7f7f7;
+}
+.song td{
+  height: 40px;
+}
+.song tbody tr:hover>td{
+  background: #f5f7fa !important;
+}
